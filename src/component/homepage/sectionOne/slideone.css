@@ -1,0 +1,136 @@
+/* Style for Section One */
+
+.frstSect {
+    width: 100vw;
+    height: calc(100vh - 3.5rem);
+    background-color: var(--clr-ye);
+}
+.conleft {
+    /* background-color: var(--clr-ye); */
+    display: inline-block;
+    float: left;
+    padding-left: 2.5rem;
+    width: 50%;
+    height: 100%;
+}
+
+.blob {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    max-width: 50%;
+    z-index: 0;
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg)
+    } to {
+        transform: rotate(359deg)
+    }
+}
+.tridone {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: -45%;
+    max-width: 95%;
+    z-index: 1;
+}
+
+.conright {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    padding-right: 2.5rem;
+
+}
+
+.judulSect {
+    font-size: 4rem;
+    padding-top: 9rem;
+}
+
+.descSect {
+    padding-top: 0.5rem;
+}
+
+.button {
+    display: inline-block;  
+    width: auto;
+    background-color: var(--clr-li);
+    border-radius: 1.25rem;
+    filter: drop-shadow(0px 0.25rem 0.25rem rgba(0, 0, 0, 0.15));
+
+}
+
+.btnText {
+    display: inline-block;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-left: 1.5rem;
+    font-weight: var(--fw-bol);
+}
+
+.arrowIcon {
+    display: inline-block;
+    margin-left: 0.25rem;
+    margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+
+    .frstSect {
+        display: table;
+        height: auto;
+        padding-bottom: 4rem;
+    }
+
+    .conleft {
+        display: table-footer-group;
+        width: 100%;
+        padding-right: 2.5rem;
+        /* padding-top: 12rem; */
+    }
+
+    .conright {
+        display: table-header-group;
+        width: max-content;
+        height: max-content;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+
+    .judulSect {
+        font-size: 2rem;
+        padding-top: 0.5rem;
+    }
+
+    .descSect {
+        font-size: 0.75rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .btnText {
+        font-size: 0.75rem;
+    }
+
+    .arrowIcon {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 1.25rem;
+    }
+
+    .tridone {
+        margin: auto;
+        margin-top: -40%;
+    }
+
+    .blob {
+        margin: auto;
+        margin-top: 10%;
+    }
+
+}

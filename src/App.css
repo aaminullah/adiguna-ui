@@ -1,4 +1,37 @@
-.App {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-d5 : #1C1C28;
+  --clr-d4 : #28293D;
+  --clr-d3 : #555770;
+
+  --clr-li : #FFFFFF;
+  --clr-ye : #FDED72;
+  --clr-te : #A9EFF2;
+  --clr-gr : #57EBA1;
+  --clr-bl : #0063F7;
+
+  --fw-nor : 400;
+  --fw-bol : 700;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: var(--clr-d4);
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +68,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

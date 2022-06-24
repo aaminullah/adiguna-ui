@@ -1,0 +1,94 @@
+/* This style applied to Navbar */
+
+header {
+    background-color: var(--clr-ye);
+    width: 100%;
+    overflow: hidden;
+}
+
+.logoNav {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-left: 2.5rem;
+}
+
+.logoName {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    font-size: 1.5rem;
+    color: var(--clr-d5);
+}
+
+.menuIcon {
+    display : none;
+
+}
+
+.nav {
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+    float: right;
+    display:inline-flex;
+}
+
+.navMenu {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navLink {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--clr-d3);
+    text-decoration: none;
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+    .logoNav {
+        display: none;
+    }
+
+    .navMenu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 62px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .navMenu.active {
+        background: #eeeeee;
+        left: 0;
+        opacity: 1;
+        transition: all 0.1s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav {
+        display: inline-block;
+        position: relative;
+        top: 0.75rem;
+        right: 1rem;
+    }
+
+    .menuIcon {
+        display: inline-block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
