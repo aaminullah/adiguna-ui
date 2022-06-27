@@ -4,6 +4,8 @@ header {
     background-color: var(--clr-ye);
     width: 100%;
     overflow: hidden;
+    position: fixed;
+    z-index: 99;
 }
 
 .logoNav {

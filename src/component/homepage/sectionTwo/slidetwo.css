@@ -1,0 +1,13 @@
+/* Slide for section two */
+
+.scndSect {
+    background-color: var(--clr-te);
+    width: 100vw;
+    height: 100vh;
+    margin-top: -1.5%;
+}
+.sectHeader {
+    font-size: 4rem;
+    padding-top: 5rem;
+    text-align: center;
+}
