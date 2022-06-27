@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/adiguna-ui/static/css/main.8384a8b3.css",
+    "main.js": "/adiguna-ui/static/js/main.1c5a0916.js",
+    "static/js/787.9073efac.chunk.js": "/adiguna-ui/static/js/787.9073efac.chunk.js",
+    "static/media/tridone.svg": "/adiguna-ui/static/media/tridone.303c1313ec0e81bf10fd3bef9a9f4fda.svg",
+    "static/media/tridtwo.svg": "/adiguna-ui/static/media/tridtwo.8230aaa0e71488314e8a95f83da4c160.svg",
+    "static/media/Logograph.svg": "/adiguna-ui/static/media/Logograph.9a62b4a90f66d3bb922e26e7bbcd042f.svg",
+    "index.html": "/adiguna-ui/index.html",
+    "static/media/blobone.svg": "/adiguna-ui/static/media/blobone.cce03b6c3baeba62ebd6ca30ef57580c.svg",
+    "main.8384a8b3.css.map": "/adiguna-ui/static/css/main.8384a8b3.css.map",
+    "main.1c5a0916.js.map": "/adiguna-ui/static/js/main.1c5a0916.js.map",
+    "787.9073efac.chunk.js.map": "/adiguna-ui/static/js/787.9073efac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8384a8b3.css",
+    "static/js/main.1c5a0916.js"
+  ]
+}
